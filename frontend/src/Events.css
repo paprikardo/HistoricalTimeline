@@ -1,0 +1,49 @@
+.timeline-container {
+    width: 100vw;
+}
+
+.timeline {
+    width: 100vw;
+    height: 200px;
+    /*quick and dirty fix*/
+}
+
+.event-card {
+    position: absolute;
+    width: 150px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #1c1c1c;
+}
+
+.collapsed {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    margin: 100px;
+    border: 1px solid black;
+}
+
+.event-card:hover {
+    background-color: #343434;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.event-card-name {
+    font-size: 0.5em;
+    font-weight: bold;
+}
+
+.event-card-time {
+    font-size: 0.5em;
+}
+
+.event-card-description {
+    font-size: 0.5em;
+}
